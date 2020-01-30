@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>sheet4</title>
+<h2>restaurant menu</h2>
+</head>
+<body bgcolor="pink">
+<ol>
+<li>SOUTH INDIAN</li>
+<ol>
+<li>idly</li>
+<li>masala dosa</li>
+</ol>
+<li>NORTH INDIAN</li>
+<ol>
+<li>pav bhaji</li>
+<li>noodles</li>
+</ol>
+</ol
+</body>
+<table border="1" cellpadding="5"cellspacing="5">
+<tr>
+<th>Firstname</th>
+<th>Lastname</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>bill</td>
+<td>gates</td>
+<td>50</td>
+</tr>
+<tr>
+<td>virat</td>
+<td>kholi</td>
+<td>35</td>
+</table>
+</body>
+<h2 align="right">Semester CGPA</h2>
+<body>
+<table border="1"cellpadding="5"cellspacing="5" align="right">
+<tr>
+<th>Semester</th>
+<th>CGPA</th>
+</tr>
+<tr>
+<td>8.5</td>
+<td>7.5</td>
+</tr>
+<tr>
+<td>8.2</td>
+<td>6.8</td>
+</tr>
+<tr>
+</table>
+</body>
+</html>
