@@ -1,0 +1,35 @@
+
+<html>
+<head>
+<title>Activity4</title>
+<h2>Resume</h2>
+</head>
+<body bgcolor="yellow">
+<ol>
+<li></li>
+<ol>
+</body>
+<table border="1" cellpadding="5"cellspacing="5">
+<tr>
+<th>Professional summary</th>
+<th>Work history</th>
+<th>Skills</th>
+<th>Education</th>
+<th></th>
+</tr>
+<tr>
+<td>Student</td>
+<td>learning</td>
+<td>creativity</td>
+<td>Pursuing btech</td>
+</tr>
+<tr>
+<td>studying Btech</td>
+<td>no work experience</td>
+<td>teamwork</td>
+<td>10th,12th<td>
+<tr>
+</table>
+</body>
+</html>
+
