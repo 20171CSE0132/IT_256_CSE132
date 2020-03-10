@@ -1,0 +1,27 @@
+span.a
+{
+dispaly:inline;/*the default span*/
+width:100px;
+height:100px;
+padding:5px;
+border:10px solid blue;
+background-color:yellow;
+}
+span.b
+{
+dispaly:block;
+width:100px;
+height:100px;
+padding:5px;
+border:10px solid blue;
+background-color:blue;
+}
+span.c
+{
+dispaly:block;
+width:100px;
+height:100px;
+padding:5px;
+border:10px solid blue;
+background-color:green;
+}
