@@ -1,0 +1,65 @@
+<html>
+    <head>Stack Ordering with moveback
+        <title>Stack Ordering with moveback</title>
+            
+            <style type="text/css">
+                #layer1
+                {
+                    border:solid thick black;
+                    background-color:brown;
+                    padding:10px;
+                    width:300px;
+                    height:200px;
+                    position:absolute;
+                    top:100px;
+                    left:200px;
+                    z-index:1;
+                }
+            #layer2
+                {
+                    border:solid thick black;
+                    background-color:gray;
+                    padding:10px;
+                    width:300px;
+                    height:200px;
+                    position:absolute;
+                    top:120px;
+                    left:220px;
+                    z-index:2;
+                }
+            #layer3
+                {
+                    border:solid thick black;
+                    background-color:white;
+                    padding:10px;
+                    width:300px;
+                    height:200px;
+                    position:absolute;
+                    top:140px;
+                    left:240px;
+                    z-index:3;
+                }
+            </style>
+    </head>
+    <body>
+        <script type=text/javascript>
+            var topLayer="layer3";
+            var origpos;
+            
+            function mover(toTop,pos)
+                {
+                    document.getElementById(toTop).style.zIndex="4";
+                    topLayer=toTop;
+                    origpos=pos;
+                }
+            
+            function moveBack()
+                {
+                    document.getElementById(topLayer).style.zIndex=origpos;
+                }
+        </script>
+        <p id=layer1 onMouseOver=mover('layer1','1'); onMouseOut=moveBack()> Nature is that natural and physical world that surrounds us and makes life possible on earth . Nature is the heart of the earth . Nature heals us . We have a strong bond and emotional connection with nature . The serenity of nature calms our heart. the stillness and movement in nature both have a hypnotizing effect.</p>
+        <p id=layer2 onMouseOver=mover('layer2','2'); onMouseOut=moveBack()> The unfolding creativity of nature is an art . The practice of devoting ourselves to the bliss of nature is soothing and reviving . Everyone loves to escape away in the mysteries of nature . Nature is an god's gift .</p>
+        <p id=layer3 onMouseOver=mover('layer3','3'); onMouseOut=moveBack()> The beauty of nature can have a profound effect upon our senses, those gateways from the outer world to the inner, whether it results in disbelief in its very existence as Emerson notes, or feelings such as awe, wonder, or amazement.</p>
+    </body>
+ </html>
